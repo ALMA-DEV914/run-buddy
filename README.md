@@ -13,4 +13,3 @@ https://alma-dev914.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by [Alma Braun]
 
-
