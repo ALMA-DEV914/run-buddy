@@ -12,3 +12,5 @@ https://alma-dev914.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by [Alma Braun]
+
+### ©️2019 Run Buddy, Inc 
