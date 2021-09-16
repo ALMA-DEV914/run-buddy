@@ -156,7 +156,6 @@ header {
 /* design class steps */
 .steps {
   background: #fce138;
-  
 }
 /* design class section-title */
 .section-title {
@@ -190,10 +189,10 @@ header {
   justify-content: space-between;
 }
 .step-info {
-  flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  flex: 2 70%;
 }
 .step-img {
   flex: 1 12%;
