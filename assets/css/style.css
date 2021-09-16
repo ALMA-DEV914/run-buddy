@@ -143,9 +143,6 @@ header {
 }
 /* HERO STYLES END */
 /* design class intro */
-.intro {
-  text-align: center;
-}
 
 /* design class intro paragraph */
 .intro p {
@@ -154,20 +151,23 @@ header {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /* design class steps */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 /* design class section-title */
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+
+
 }
 /* design class primary-border */
 .primary-border {
@@ -202,8 +202,8 @@ header {
   font-size: 38px;
 }
 /* design class trainers */
-.trainers {
-  text-align: center;
+.flex-row{
+  display: flex;
 }
 /* design class trainer */
 .trainer {
@@ -250,7 +250,6 @@ header {
 }
 /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
   background: #024e76;
   
 }
