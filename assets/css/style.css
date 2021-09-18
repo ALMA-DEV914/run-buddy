@@ -154,6 +154,7 @@ header {
 /* design class steps */
 .steps {
   background: #fce138;
+
 }
 /* design class section-title */
 .section-title {
@@ -216,7 +217,6 @@ header {
   line-height: 1.5;
   color: #024e76;
 }
-/* design class trainers */
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -224,6 +224,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 /* design class trainer */
 .trainer {
   flex: 1;
@@ -268,7 +269,6 @@ header {
 /* design class trainer bio paragraph */
 .trainer-bio p {
   font-size: 17px;
-
 }
 /* REACH OUT STYLES START */
 .contact {
@@ -277,6 +277,15 @@ header {
 }
 .contact h2 {
   color: #fce138;
+}
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact-info iframe {
   height:400px;
@@ -327,3 +336,6 @@ header {
 }
 
 /* REACH OUT STYLES END */
+.flex-row {
+  display: flex;
+}
