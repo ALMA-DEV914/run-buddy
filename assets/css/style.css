@@ -34,14 +34,18 @@ header {
     margin: 7px 0;
   }
   /* apply style to the header nav ul li */
-  header nav ul li {
-    display: inline;
+  header nav ul  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
   }
   /* style the nav ul li link(a) */
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
   }
   /* style the footer */
   footer {
