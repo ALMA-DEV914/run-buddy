@@ -22,7 +22,7 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-  
+    
   }
   /* apply style to the header link */
   header a {
@@ -36,16 +36,16 @@ header {
   /* apply style to the header nav ul li */
   header nav ul  {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
   }
   /* style the nav ul li link(a) */
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vm;
+    font-size: 1.55vw;
   }
   /* style the footer */
   footer {
@@ -71,6 +71,7 @@ header {
   footer a {
     color: #024e76;
   }
+
   section{
       padding: 60px;
   }
@@ -83,6 +84,21 @@ header {
   justify-content: center;
   flex-wrap: wrap;
 }
+/* style the class hero-cta */
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+/* style the class hero-cta-h2 */
+.hero-cta h2 {
+  font-size: 55px;
+  font-style: italic;
+  color: #fce138;
+}
 /* Hero Style End */
 /* style the hero form */
 .hero-form {
@@ -92,23 +108,6 @@ header {
   border: 3px solid #024e76;
   width: 40%;
   margin: 3.5%;
-
-
-}
-/* Style class hero cta */
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-/* style the h2 inside class hero cta */
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138;
 }
 /* style the form h3 */
 .hero-form h3 {
@@ -142,7 +141,6 @@ header {
   font-size: 16px;
 }
 /* HERO STYLES END */
-/* design class intro */
 
 /* design class intro paragraph */
 .intro p {
@@ -167,8 +165,6 @@ header {
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-
-
 }
 /* design class primary-border */
 .primary-border {
@@ -178,7 +174,6 @@ header {
 .secondary-border {
   border-color: #39a6b2;
 }
-/* style the class step */
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -190,10 +185,10 @@ header {
   justify-content: space-between;
 }
 .step-info {
+  flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  flex: 2 70%;
 }
 .step-img {
   flex: 1 12%;
@@ -210,13 +205,13 @@ header {
   color: #024e76;
   font-size: 46px;
   flex: 1 30%;
+  
 }
 /* design class steps paragraph */
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
 }
-/* style class step text h4 */
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
@@ -232,11 +227,11 @@ header {
 
 /* design class trainer */
 .trainer {
- 
+  flex: 1;
   margin: 20px;
   background: #024e76;
   color: #fce138;
-  flex: 1;
+  
 }
 /* design class trainer img */
 .trainer img {
@@ -246,6 +241,7 @@ header {
 /* design class trainer bio */
 .trainer-bio {
   padding: 25px;
+  width: 65%;
   line-height: 1.3;
 }
 /* design class text-left */
@@ -256,6 +252,9 @@ header {
 .text-right {
   text-align: right;
 }
+.flex-row {
+  display: flex;
+}
 /* design class trainer bio h3 */
 .trainer-bio h3 {
   font-size: 28px;
@@ -264,13 +263,12 @@ header {
 /* design class trainer bio h4 */
 .trainer-bio h4 {
   font-weight: lighter;
-  font-size: 15px;
-  margin-bottom: 22px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 /* design class trainer bio paragraph */
 .trainer-bio p {
   font-size: 17px;
-  
 }
 /* REACH OUT STYLES START */
 .contact {
@@ -295,11 +293,19 @@ header {
 .contact-info div {
   color: white;
 }
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .contact-info h3 {
   color: #fce138;
   font-size: 32px;
 }
-
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
 .contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
